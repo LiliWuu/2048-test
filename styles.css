@@ -1,6 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(247, 247, 241);
     text-align: center;
+    color: #262626
 }
 
 hr {
@@ -10,88 +12,86 @@ hr {
 #board {
     width: 400px;
     height: 400px;
-
     background-color: #cdc1b5;
-    border: 6px solid #bbada0;
-
-    margin: 0 auto;
-    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    border: 7px solid #bbada0;
+    display: flex;
+    margin: auto;
 }
 
 .tile {
     width: 90px;
     height: 90px;
+    background-color: #cdc1b5;
     border: 5px solid #bbada0;
-
-    font-size: 40px;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
 }
 
-.x2 {
-    background-color:#eee4da;
+.tile2 {
+    background-color: #eee4da;
     color: #50514f;
 }
 
-.x4 {
+.tile4 {
     background-color:#ece0ca;
     color: #50514f;
 }
 
-.x8 {
+.tile8 {
     background-color:#f4b17a;
     color: white;
 }
 
-.x16 {
+.tile16 {
     background-color:#f59575;
     color: white;
 }
 
-.x32 {
+.tile32 {
     background-color:#f57c5f;
-    color: white;
+    color: white; 
 }
 
-.x64 {
+.tile64 {
     background-color:#f65d3b;
     color: white;
 }
 
-.x128 {
+.tile128 {
     background-color:#edce71;
     color: white;
 }
 
-.x256 {
+.tile256 {
     background-color:#edcc63;
     color: white;
 }
 
-.x512 {
+.tile512 {
     background-color:#edc651;
-    color: #50514f;
+    color: white;
 }
 
-.x1024 {
+.tile1024 {
     background-color:#f4b17a;
-    color: #50514f;
+    color: white;
 }
 
-.x2048 {
+.tile2048 {
     background-color:#f4b17a;
-    color: #50514f;
+    color: white;
 }
 
-.x4096 {
+.tile4096 {
     background-color: #fe3d3d; 
-    color: #50514f;
+    color: white;
 }
 
-.x8192 {
-    background-color: #ff2020; 
-    color: #50514f;
+.tile8192 {
+    background-color: #fe3d3d; 
+    color: white;
 }
